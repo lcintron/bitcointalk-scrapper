@@ -20,7 +20,7 @@ Exports a whole topic to JSON! Pass the topic url as the argument or enter it in
 - Double click .exe and entered the bitcointalk.org topic url to export.
 
 ## Example Output
-'''json
+```javascript
 {
   "Url": "https://bitcointalk.org/index.php?topic=4554177.0",
   "Topic": "How Can/Do You Store Files on a Blockchain?",
@@ -35,7 +35,7 @@ Exports a whole topic to JSON! Pass the topic url as the argument or enter it in
         "Activity": "111"
       },
       "DatePosted": "June 27, 2018, 02:02:38 PM",
-      "Content": "We know blockchain is not only limited to cryptocurrencies. But how exactly do you store files, say a one page pdf, in a blockchain? Especially without using any third-party services like IPFS."
+      "Content": ""
     },
     {
       "Topic": "How Can/Do You Store Files on a Blockchain?",
@@ -46,30 +46,10 @@ Exports a whole topic to JSON! Pass the topic url as the argument or enter it in
       },
       "DatePosted": "June 27, 2018, 02:25:24 PM",
       "Content": "<div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=4554177.msg41016260#msg41016260\">Quote from: Maveth13 on June 27, 2018, 02:02:38 PM</a></div><div class=\"quote\">We know blockchain is not only limited to cryptocurrencies. But how exactly do you store files, say a one page pdf, in a blockchain? Especially without using any third-party services like IPFS.<br></div>Are you asking about how to abuse the blockchain? lol. <br>You should not!"
-    },
-    {
-      "Topic": "How Can/Do You Store Files on a Blockchain?",
-      "Author": {
-        "Name": "Maveth13",
-        "MemberType": "Full Member",
-        "Activity": "111"
-      },
-      "DatePosted": "June 27, 2018, 03:13:31 PM",
-      "Content": "<div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=4554177.msg41017641#msg41017641\">Quote from: goddog on June 27, 2018, 02:25:24 PM</a></div><div class=\"quote\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=4554177.msg41016260#msg41016260\">Quote from: Maveth13 on June 27, 2018, 02:02:38 PM</a></div><div class=\"quote\">We know blockchain is not only limited to cryptocurrencies. But how exactly do you store files, say a one page pdf, in a blockchain? Especially without using any third-party services like IPFS.<br></div>Are you asking about how to abuse the blockchain? lol. <br>You should not!<br></div><br>Abuse? Clearly you should read more. File storage is one of the best usecase for blockchain, and there's already a lot of sites/services that provides it."
-    },
-    {
-      "Topic": "How Can/Do You Store Files on a Blockchain?",
-      "Author": {
-        "Name": "goddog",
-        "MemberType": "Member",
-        "Activity": "8426 2618 9F5F C7BF 22BD  E814 763A 57A1 AA19 E681"
-      },
-      "DatePosted": "June 27, 2018, 03:26:16 PM",
-      "Content": "<div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=4554177.msg41020591#msg41020591\">Quote from: Maveth13 on June 27, 2018, 03:13:31 PM</a></div><div class=\"quote\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=4554177.msg41017641#msg41017641\">Quote from: goddog on June 27, 2018, 02:25:24 PM</a></div><div class=\"quote\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=4554177.msg41016260#msg41016260\">Quote from: Maveth13 on June 27, 2018, 02:02:38 PM</a></div><div class=\"quote\">We know blockchain is not only limited to cryptocurrencies. But how exactly do you store files, say a one page pdf, in a blockchain? Especially without using any third-party services like IPFS.<br></div>Are you asking about how to abuse the blockchain? lol. <br>You should not!<br></div><br>Abuse? Clearly you should read more. File storage is one of the best usecase for blockchain, and there's already a lot of sites/services that provides it.<br></div><b>Clearly you should read more</b> there are better ways to share files than spamming the blockchain.<br>the blockchain is very inefficent for these stuff. Of course there are a lot of scammers trying to sell the blockchain to steal some money from people like you.<br>"
-    },
+    }
   ]
 }
-'''
+```
 
 ## Dependencies
 - AngleSharp by AngleSharp (NuGet)
